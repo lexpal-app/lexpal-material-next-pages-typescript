@@ -52,38 +52,38 @@ interface Review {
 
 const reviews: Review[] = [
   {
-    author: 'Oded R.',
+    author: 'Lucas R.',
     message:
-      "I'm highly satisfied with our decision to use this template. It's actually 2 for 1 - we got a beautiful design(responsive, looks great with so many different options and components) AND we got an excellent source code with an actual project [...]",
+      "I'm thoroughly impressed by the depth and quality of features on this platform. It's well-constructed and a treasure trove of language learning resources. Highly recommended!",
     stars: 5,
   },
   {
     author: 'Mark S.',
     message:
-      'I really like the depth and quality with this template. Well constructed and a very useful source of ideas and best practices. I highly recommend it.',
+      'This platform is a goldmine of language learning resources. Its robust matchmaking and abundance of conversational exercises exceed expectations. Highly recommend!!!',
     stars: 5,
   },
   {
     author: 'Lorenz N.',
     message:
-      'It comes packed with probably more components and feature samples than you will ever need in a single App. The code is well structured and the documentation covers all essential parts. They are maybe not covering [...]',
+      'Standout app! Gamification motivates, certification gives goals, content is engaging. [...]',
     stars: 5,
   },
   {
-    author: 'Ruthy G.',
-    message: 'I received a kind, considerate and immediate response, thank you very much!',
+    author: 'Emily G.',
+    message: "I'm blown away by the level of support and resources provided by this platform. The AI-powered assistance, interactive practice sessions, and progress tracking features have truly elevated my language learning experience. Kudos to the team!",
     stars: 5,
   },
   {
-    author: 'Dean H.',
+    author: 'Sofia H.',
     message:
-      'While many templates are next.js, the support is quick and AMAZING and I was able to port this to using react-router v6. Very happy with the quality of everything!!!',
+      'Solved my partner problem! Easy matching, fun practice with friends.',
     stars: 5,
   },
   {
-    author: 'Cole S.',
+    author: 'Felix S.',
     message:
-      'Great template and great customer support. Easy to customize, code is easy to read, documentation is good. Very happy!',
+      "This app is a gem! Relevant topics, feedback option, credible language proficiency certification. Overall, a fantastic tool for language learners of all levels. Very happy!",
     stars: 5,
   },
 ];
@@ -133,15 +133,15 @@ export const HomeReviews: FC = () => (
             align="center"
             variant="h3"
           >
-            Loved by businesses worldwide.
+            Loved by learners worldwide.
           </Typography>
           <Typography
             align="center"
             color="text.secondary"
             variant="subtitle1"
           >
-            Our template is so simple that people can’t help but fall in love with it. Simplicity is
-            easy when you just skip tons of mission-critical features.
+            Our platform is so simple that people can’t help but fall in love with it. Simplicity is
+            easy when you just focus on what truly matters.
           </Typography>
         </Stack>
         <Grid

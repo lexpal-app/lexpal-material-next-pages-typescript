@@ -30,8 +30,7 @@ export const HomeCta: FC = () => (
           color="inherit"
           variant="subtitle2"
         >
-          Not just a set of tools, the package includes ready-to-deploy conceptual applications
-          written in JavaScript & TypeScript.
+          Experience LexPal's tailored language practice sessions and accelerate your fluency.
         </Typography>
       </Stack>
       <Stack
@@ -43,11 +42,11 @@ export const HomeCta: FC = () => (
       >
         <Button
           component="a"
-          href="https://mui.com/store/items/devias-kit-pro"
+          href="https://lexpalai.vercel.app/dashboard"
           target="_blank"
           variant="contained"
         >
-          Purchase Now
+          Sign Up
         </Button>
       </Stack>
     </Container>

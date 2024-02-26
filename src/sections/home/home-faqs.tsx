@@ -18,29 +18,29 @@ interface FaqType {
 
 const faqs: FaqType[] = [
   {
-    question: 'Do you have a free demo to review the code before purchasing?',
+    question: 'What is LexPal?',
     answer:
-      'Yes, you can check out our open source dashboard template which should give you an overview of the code quality and folder structure. Keep in mind that some aspects may differ from this Paid version.',
+      'LexPal is an AI-driven platform for language learners offering free conversation practice. It matches learners for live sessions based on their background and availability. With integrated HD video chat, real-time text collaboration, and peer feedback, LexPal streamlines matching, scheduling, and content delivery.',
   },
   {
     question: 'How many projects can I build with Devias Kit PRO?',
     answer:
-      "The license is per project (domain), but if you intend to develop an unknown number of projects feel free to contact us and we'll find a solution.",
+      "LexPal offers a free version accessible to all users. Additionally, we provide a premium subscription option, offering enhanced content and learning opportunities for those seeking deeper engagement.",
   },
   {
-    question: 'How many projects can I build with this template?',
+    question: 'How does LexPal ensure the quality of practice sessions?',
     answer:
-      'Absolutely! If you intend to charge users for using your product Extended license is created specifically for this context.',
+      "Overall, LexPal's commitment to optimizing the matching process, facilitating constructive feedback, monitoring interactions, and integrating valuable resources contributes to the quality and effectiveness of practice sessions for language learners.",
   },
   {
-    question: 'What browsers does the template support?',
+    question: 'Why not go with any tandem partner?',
     answer:
-      "The components in MUI are designed to work in the latest, stable releases of all major browsers, including Chrome, Firefox, Safari, and Edge. We don't support Internet Explorer 11.",
+      "While tandem partners are valuable, not everyone is an ideal match. Many conversation exchange apps result in unproductive experiences due to mismatched expectations. Some learners pursue language acquisition as a hobby, while others aim to navigate various life transitions or excel in academic pursuits. LexPal emphasizes quality over quantity, prioritizing optimal matches based on your learning goals, saving you time and enabling focused learning experiences.",
   },
   {
-    question: 'For what kind of projects is the Standard license intended?',
+    question: 'Why not talk to AI?',
     answer:
-      'The Standard license is designed for internal applications in which staff will access the application. An example could be the back-office dashboard of a public-facing e-commerce website in which staff would sign in and manage inventory, customers, etc.',
+      'While AI offers valuable support, human interaction remains essential for mastering regional dialects, informal phrases, humor, and slang—the nuances of native fluency. LexPal emphasizes human-to-human practice, mirroring real-life language scenarios. Our AI complements this approach, enriching the learning journey.',
   },
 ];
 

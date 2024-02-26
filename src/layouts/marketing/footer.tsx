@@ -121,7 +121,7 @@ export const Footer: FC = (props) => (
                 sx={{
                   color: 'text.primary',
                   fontFamily: "'Plus Jakarta Sans', sans-serif",
-                  fontSize: 14,
+                  fontSize: 30,
                   fontWeight: 800,
                   letterSpacing: '0.3px',
                   lineHeight: 2.5,
@@ -130,14 +130,14 @@ export const Footer: FC = (props) => (
                   },
                 }}
               >
-                Devias Kit <span>PRO</span>
+                Lex<span>Pal</span>
               </Box>
             </Stack>
             <Typography
               color="text.secondary"
               variant="caption"
             >
-              © 2022 Devias IO
+              © 2024 LexPal
             </Typography>
           </Stack>
         </Grid>

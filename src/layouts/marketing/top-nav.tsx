@@ -33,16 +33,16 @@ interface Item {
 
 const items: Item[] = [
   {
-    title: 'Components',
-    path: paths.components.index,
+    title: 'About',
+    path: paths.landingpage,
   },
   {
-    title: 'Pages',
+    title: 'More',
     popover: <PagesPopover />,
   },
   {
-    title: 'Docs',
-    path: paths.docs,
+    title: 'Contact',
+    path: paths.contact,
     external: true,
   },
 ];
@@ -138,7 +138,7 @@ export const TopNav: FC<TopNavProps> = (props) => {
                   sx={{
                     color: 'text.primary',
                     fontFamily: "'Plus Jakarta Sans', sans-serif",
-                    fontSize: 14,
+                    fontSize: 30,
                     fontWeight: 800,
                     letterSpacing: '0.3px',
                     lineHeight: 2.5,
@@ -147,14 +147,14 @@ export const TopNav: FC<TopNavProps> = (props) => {
                     },
                   }}
                 >
-                  Devias Kit <span>PRO</span>
+                  Lex<span>Pal</span>
                 </Box>
               )}
             </Stack>
-            <Chip
+            {/* <Chip
               label={`v${version}`}
               size="small"
-            />
+            /> */}
           </Stack>
           {mdUp && (
             <Stack
@@ -212,11 +212,21 @@ export const TopNav: FC<TopNavProps> = (props) => {
             <Button
               component="a"
               size={mdUp ? 'medium' : 'small'}
-              href="https://mui.com/store/items/devias-kit-pro"
+              href={paths.auth.jwt.login}
               target="_blank"
               variant="contained"
             >
-              Purchase Now
+              Sign In
+            </Button>
+            <Button
+              component="a"
+              size={mdUp ? 'medium' : 'small'}
+              // href="https://lexpalai.vercel.app/dashboard"
+              href={paths.auth.jwt.register}
+              target="_blank"
+              variant="contained"
+            >
+              Sign Up
             </Button>
             {!mdUp && (
               <IconButton onClick={onMobileNavOpen}>

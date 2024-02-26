@@ -21,41 +21,41 @@ interface Feature {
 const features: Feature[] = [
   {
     id: 'experts',
-    title: 'Built by experts',
+    title: 'Exchange Partner Matchmaking',
     description:
-      'All of the code follows MUI best practices, it’s written by our in-house team of experts.',
+      'Seamlessly connect with perfect language partners and schedule conversations effortlessly.',
     imageDark: '/assets/home-features-experts-dark.png',
     imageLight: '/assets/home-features-experts-light.png',
   },
   {
     id: 'figma',
-    title: 'Design Files',
+    title: 'Conversation Practice Exercises',
     description:
-      "We've included the source Figma files to Plus & Extended licenses so you can get creative! Build layouts with confidence.",
+      "Dive into diverse topics and receive feedback for an enriching learning experience. Improve with confidence!",
     imageDark: '/assets/home-features-figma-dark.png',
     imageLight: '/assets/home-features-figma-light.png',
   },
   {
     id: 'tech',
-    title: 'Built with modern technologies',
+    title: 'AI-Assisted Learning',
     description:
-      'Each template is a well-structured CRA & Next.js project, giving you a codebase that’s productive and enjoyable to work in.',
+      'Experience AI-driven learning tailored to your needs, from grammar & vocabulary assistance to personalized content.',
     imageDark: '/assets/home-features-tech-dark.png',
     imageLight: '/assets/home-features-tech-light.png',
   },
   {
     id: 'customize',
-    title: 'Easy to customize',
+    title: 'Gamification',
     description:
-      'Everything is styled using global theme overrides, just open the theme file in your editor and change whatever you want.',
+      'Set goals, track progress, and enjoy a gamified approach to language mastery.',
     imageDark: '/assets/home-features-customize-dark.png',
     imageLight: '/assets/home-features-customize-light.png',
   },
   {
     id: 'productive',
-    title: 'Built with CRA & Next.js',
+    title: 'Certification',
     description:
-      'Well-structured, thoughtfully componentized CRA & Next.js project, giving you a codebase that’s productive and enjoyable to work in.',
+      'Achieve proficiency at your own pace with practice goals and certification exams.',
     imageDark: '/assets/home-features-nextjs-dark.png',
     imageLight: '/assets/home-features-nextjs-light.png',
   },
@@ -88,14 +88,14 @@ export const HomeFeatures: FC = () => {
             color="inherit"
             variant="h3"
           >
-            Everything you need to run your project.
+            Everything you need to be conversational.
           </Typography>
           <Typography
             align="center"
             color="inherit"
             variant="subtitle2"
           >
-            Not just a set of tools, the package includes ready-to-deploy conceptual application.
+            Not just another language app, the platform includes a Human-Centered solution with AI support.
           </Typography>
         </Stack>
         <Grid

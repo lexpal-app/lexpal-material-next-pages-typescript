@@ -124,4 +124,5 @@ export const paths = {
   notAuthorized: '/401',
   notFound: '/404',
   serverError: '/500',
+  landingpage: 'https://lexpal.ai',
 };

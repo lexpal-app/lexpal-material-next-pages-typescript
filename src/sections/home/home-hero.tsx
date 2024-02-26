@@ -33,15 +33,15 @@ export const HomeHero: FC = () => {
             variant="h1"
             sx={{ mb: 2 }}
           >
-            Let us worry about the&nbsp;
+            Let us worry about finding your&nbsp;
             <Typography
               component="span"
               color="primary.main"
               variant="inherit"
             >
-              User Experience
+              perfect match
             </Typography>
-            , you focus on Developing.
+            , you focus on speaking.
           </Typography>
           <Typography
             color="text.secondary"
@@ -50,8 +50,8 @@ export const HomeHero: FC = () => {
               fontWeight: 500,
             }}
           >
-            A professional kit that comes with ready-to-use MUI components developed with one common
-            goal in mind, help you build faster & beautiful applications.
+            An AI-powered platform for language learners to meet and practice their conversation skills developed with one common
+            goal in mind, to help you speak fluently faster.
           </Typography>
           <Stack
             alignItems="center"
