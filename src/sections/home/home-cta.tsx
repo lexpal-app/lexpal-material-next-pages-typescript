@@ -30,7 +30,7 @@ export const HomeCta: FC = () => (
           color="inherit"
           variant="subtitle2"
         >
-          Experience LexPal's tailored language practice sessions and accelerate your fluency.
+          Experience LexPal&apos;s tailored language practice sessions and accelerate your fluency.
         </Typography>
       </Stack>
       <Stack
